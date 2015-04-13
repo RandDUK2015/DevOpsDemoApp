@@ -43,7 +43,7 @@
 							<div class="control-group">
 								<!-- Button -->
 								<div class="controls">
-									<button class="btn btn-success" id="studentLogin">Button</button>
+									<button class="btn btn-success" id="studentLogin">Loginnnn</button>
 								</div>
 							</div>
 						</div>
