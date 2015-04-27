@@ -11,12 +11,12 @@ define(
 					$('#loginModal').html(_AdminTemplate());
 					
                                          $('#submit').on("click", function(event) {
-                                              alert("I am an alert box!");
+                                              
 						
                 });
                                         
 					$('#startButton').on("click", function(event) {
-                                            alert("I am an alert box!");
+                                            
 						event.preventDefault();
 						var event1 = $('#event1').val();
 						var event2 = $('#event2').val();
