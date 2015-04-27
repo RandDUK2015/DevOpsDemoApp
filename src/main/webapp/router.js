@@ -29,11 +29,5 @@ define([ 'app', 'jquery', 'underscore', 'backbone', 'Handlebars',
 			$('#adminAlert').show();
 		}
 	});
-        
-        $('#rateCheck').on("click", function(event) {
-		event.preventDefault();
-		
-                alert("sdfsadfsad");
-	});
-
+       
 });

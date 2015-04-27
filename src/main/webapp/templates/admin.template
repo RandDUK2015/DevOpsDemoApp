@@ -9,17 +9,7 @@
 				
 <div class="well">
 
-     
- <!-- Button -->
-					<div class="control-group">
-					  <label class="control-label"></label>
-					  <div class="controls">
-					    <button id="submit" name="submit" class="btn btn-info">Convert</button>
-					  </div>
-					</div>	
-        
-       <br/>
-<div id="welcometext">  
+
         
 		
 				
