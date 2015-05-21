@@ -14,7 +14,7 @@
                    var to=$('#to').val();
                 	$.get('ActionServlet',{from:from,to:to},function(responseText) { 
                         $('#welcometext').text(responseText); 
-                       // alert(responseText);
+                         alert(responseText);
                     });
                 });
             });
