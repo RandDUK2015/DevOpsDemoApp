@@ -29,7 +29,7 @@ public class ActionServlet extends HttpServlet {
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-            URL url = new URL("http://192.168.0.17:8088/MockCurrencyConversion?WSDL");
+            URL url = new URL("http://192.168.0.62:8088/MockCurrencyConversion?WSDL");
               URLConnection connection = url.openConnection();
               connection.setReadTimeout(3000);
               HttpURLConnection httpConn = (HttpURLConnection) connection;
@@ -37,7 +37,7 @@ public class ActionServlet extends HttpServlet {
               ByteArrayOutputStream bout = new ByteArrayOutputStream();
               httpConn.setRequestProperty("Content-Type",
                            "text/xml; charset=utf-8");
-              String SOAPAction = "http://192.168.0.17:8088/MockCurrencyConversion";
+              String SOAPAction = "http://192.168.0.62:8088/MockCurrencyConversion";
               httpConn.setRequestProperty("SOAPAction", SOAPAction);
               httpConn.setRequestMethod("POST");
               httpConn.setDoInput(true);
